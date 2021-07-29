@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/polo-mart/static/css/main.1845a358.chunk.css",
-    "main.js": "/polo-mart/static/js/main.5fd23653.chunk.js",
-    "main.js.map": "/polo-mart/static/js/main.5fd23653.chunk.js.map",
+    "main.js": "/polo-mart/static/js/main.adf91f90.chunk.js",
+    "main.js.map": "/polo-mart/static/js/main.adf91f90.chunk.js.map",
     "runtime-main.js": "/polo-mart/static/js/runtime-main.89f6d050.js",
     "runtime-main.js.map": "/polo-mart/static/js/runtime-main.89f6d050.js.map",
     "static/css/2.53ddf717.chunk.css": "/polo-mart/static/css/2.53ddf717.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.53ddf717.chunk.css",
     "static/js/2.50f4af75.chunk.js",
     "static/css/main.1845a358.chunk.css",
-    "static/js/main.5fd23653.chunk.js"
+    "static/js/main.adf91f90.chunk.js"
   ]
 }
