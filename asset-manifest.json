@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/polo-mart/static/css/main.1845a358.chunk.css",
+    "main.js": "/polo-mart/static/js/main.5fd23653.chunk.js",
+    "main.js.map": "/polo-mart/static/js/main.5fd23653.chunk.js.map",
+    "runtime-main.js": "/polo-mart/static/js/runtime-main.89f6d050.js",
+    "runtime-main.js.map": "/polo-mart/static/js/runtime-main.89f6d050.js.map",
+    "static/css/2.53ddf717.chunk.css": "/polo-mart/static/css/2.53ddf717.chunk.css",
+    "static/js/2.50f4af75.chunk.js": "/polo-mart/static/js/2.50f4af75.chunk.js",
+    "static/js/2.50f4af75.chunk.js.map": "/polo-mart/static/js/2.50f4af75.chunk.js.map",
+    "static/js/3.2ffb1a9d.chunk.js": "/polo-mart/static/js/3.2ffb1a9d.chunk.js",
+    "static/js/3.2ffb1a9d.chunk.js.map": "/polo-mart/static/js/3.2ffb1a9d.chunk.js.map",
+    "index.html": "/polo-mart/index.html",
+    "static/css/2.53ddf717.chunk.css.map": "/polo-mart/static/css/2.53ddf717.chunk.css.map",
+    "static/css/main.1845a358.chunk.css.map": "/polo-mart/static/css/main.1845a358.chunk.css.map",
+    "static/js/2.50f4af75.chunk.js.LICENSE.txt": "/polo-mart/static/js/2.50f4af75.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89f6d050.js",
+    "static/css/2.53ddf717.chunk.css",
+    "static/js/2.50f4af75.chunk.js",
+    "static/css/main.1845a358.chunk.css",
+    "static/js/main.5fd23653.chunk.js"
+  ]
+}
