@@ -1,0 +1,33 @@
+.chart-main{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(225, 228, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chart-main .chart:nth-child(1){
+    margin-right: 10px;
+    background-color: rgb(167, 151, 151);
+}
+
+.chart-main .chart:nth-child(2){
+    background-color: rgb(151, 167, 152);
+
+}
+
+.chart-main .chart{
+    height: 30vw;
+    width: 40vw;
+    /* background-color: lawngreen; */
+}
+
+
+@media screen and (max-width:600px) {
+    .chart-main .chart{
+        height: 31vw;
+        width: 45vw;
+    }
+}
