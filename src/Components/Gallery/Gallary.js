@@ -28,13 +28,11 @@ export default function Gallery() {
                         slidesPerView={1}
                         loop="true"
                         effect="cube"
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
                         >
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (1).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (3).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (2).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (4).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (1).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (3).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (2).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (4).jpg`}  alt="" /> </SwiperSlide>
                     </Swiper>
                     
 
@@ -43,7 +41,7 @@ export default function Gallery() {
 
                                  {/* < TWO >  3  </ TWO > */}
 
-                    <div className="gallery-only"> <img src={`${window.location.origin}/Images/squire (1).jpg`}  alt="" />  </div>
+                    <div className="gallery-only"> <img src={`${window.location.origin}/polo-mart/Images/squire (1).jpg`}  alt="" />  </div>
 
 
 
@@ -61,13 +59,11 @@ export default function Gallery() {
                         // scrollbar={{ draggable: true }}
                         loop="true"
                         effect="slide"
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
                         >
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (7).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (6).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (5).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (4).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (7).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (6).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (5).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (4).jpg`}  alt="" /> </SwiperSlide>
                     </Swiper>
                     
 
@@ -87,13 +83,11 @@ export default function Gallery() {
                         // scrollbar={{ draggable: true }}
                         loop="true"
                         effect="coverflow"
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
                         >
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (2).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (4).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (5).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/squire (6).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (2).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (4).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (5).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/squire (6).jpg`}  alt="" /> </SwiperSlide>
                     </Swiper>
                     
 
@@ -103,7 +97,7 @@ export default function Gallery() {
 
                                                      {/* < FIVE >  5  </ FIVE > */}
 
-                    <div className="gallery-only"> <img src={`${window.location.origin}/Images/squire (3).jpg`}  alt="" />  </div>
+                    <div className="gallery-only"> <img src={`${window.location.origin}/polo-mart/Images/squire (3).jpg`}  alt="" />  </div>
 
 
                                                     {/* < SIX >  4  </ SIX > */}
@@ -117,13 +111,11 @@ export default function Gallery() {
                         slidesPerView={1}
                         loop="true"
                         effect="flip"
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
                         >
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/stand (1).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/stand (2).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/stand (3).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/stand (4).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/stand (1).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/stand (2).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/stand (3).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/stand (4).jpg`}  alt="" /> </SwiperSlide>
                     </Swiper>
                     
 
@@ -132,7 +124,7 @@ export default function Gallery() {
 
                          {/* < SEVEN >  7  </ SEVEN > */}
 
-                    <div className="gallery-only"> <img src={`${window.location.origin}/Images/squire (6).jpg`}  alt="" />  </div>
+                    <div className="gallery-only"> <img src={`${window.location.origin}/polo-mart/Images/squire (6).jpg`}  alt="" />  </div>
 
 
                     
@@ -147,14 +139,11 @@ export default function Gallery() {
                             slidesPerView={1}
                             loop="true"
                             effect="fade"
-                            onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
-                            
                             >
-                                <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (3).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (2).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (1).jpg`}  alt="" /> </SwiperSlide>
-                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/Images/vertical (5).jpg`}  alt="" /> </SwiperSlide>
+                                <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (3).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (2).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (1).jpg`}  alt="" /> </SwiperSlide>
+                            <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/polo-mart/Images/vertical (5).jpg`}  alt="" /> </SwiperSlide>
                         </Swiper>
                     
 
@@ -162,12 +151,12 @@ export default function Gallery() {
 
                     {/* < NINE >  7  </  NINE > */}
 
-                    <div className="gallery-only"> <img src={`${window.location.origin}/Images/squire (2).jpg`}  alt="" />  </div>
+                    <div className="gallery-only"> <img src={`${window.location.origin}/polo-mart/Images/squire (2).jpg`}  alt="" />  </div>
 
 
                      {/* < TEN >  7  </  TEN > */}
 
-                     <div className="gallery-only"> <img src={`${window.location.origin}/Images/vertical (4).jpg`}  alt="" />  </div>
+                     <div className="gallery-only"> <img src={`${window.location.origin}/polo-mart/Images/vertical (4).jpg`}  alt="" />  </div>
 
 
                 </div>

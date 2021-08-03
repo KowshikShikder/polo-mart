@@ -7,7 +7,7 @@ export default function Cover() {
         <>
             <div className="cover-parent">
                 <div className="cover-img">
-                    <img src={`${window.location.origin}/Images/cover.jpg `} alt="" />
+                    <img src={`${window.location.origin}/polo-mart/Images/cover.jpg `} alt="" />
                 </div>
                 <div className="cover" >
                     <div className="text">

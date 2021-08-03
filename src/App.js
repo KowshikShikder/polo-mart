@@ -6,6 +6,7 @@ import ImageSlide from './Components/ImageSlide/ImageSlide'
 import About from './Components/About/About'
 import Gallery from './Components/Gallery/Gallary'
 import Chart from './Components/Chart/Chart'
+import DashBoard from './Components/DashBoard/DashBoard'
 import Footer from './Components/Footer/Footer'
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <About/>
       <Gallery/>
       <Chart/>
+      <DashBoard/>
       <Footer/>
     </>
   )

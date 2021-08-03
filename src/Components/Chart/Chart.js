@@ -1,6 +1,6 @@
 import React from 'react'
 import './Chart.css'
-import { Pie, Bar, Bubble, Doughnut, Radar, PolarArea, Scatter } from 'react-chartjs-2'
+import { Pie, Bar, Bubble, Doughnut, Radar, PolarArea, Scatter, Line } from 'react-chartjs-2'
 
 
 
@@ -22,7 +22,7 @@ export default function Chart() {
                 {
                     type: 'pie',
                     label: 'Quantity',
-                    data: [40, 12, 15, 27, 30, 25],
+                    data: [0, 12, 25, 27],
                     backgroundColor: [ 
                         'rgba(255, 99, 132, 0.6)',
                         'rgba(54, 162, 235, 0.6)',
@@ -69,14 +69,17 @@ export default function Chart() {
 
     <div className="chart">
 
-    <Bar
+    <Line
         data={{
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Red', 'Blue', 'Yellow', 'Green'],
         datasets: [
             {
                 type: 'line',
                 label: 'One',
-                data: [10, 16, 10, 24, 14, 20],
+                data: [5, 9, 20, 25],
+                cubicInterpolationMode: 'monotype',
+                // cubicInterpolationMode: 'monotone',
+                tension: 0.6,
                 backgroundColor: [ 
                     'rgba(255, 99, 32, 0.6)',
                     'rgba(54, 62, 235, 0.6)',
@@ -96,7 +99,10 @@ export default function Chart() {
             {
                 // type: 'line',
                 label: 'Two',
-                data: [20, 22, 17, 28, 29, 24],
+                data: [10, 15, 17, 28],
+                // cubicInterpolationMode: 'monotype',
+                tension: 0.5,
+
                 backgroundColor: [ 
                     'rgba(255, 99, 132, 0.6)',
                     'rgba(54, 162, 235, 0.6)',
@@ -116,6 +122,7 @@ export default function Chart() {
                 borderWidth: 1,
 
             },
+            
           ],
         }}
         height={400} //charts height
